@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "modelling-entry-queue-post-merge"
+version = "0.1.0"
+description = "A necessary set of dependencies for jupyter notebook"
+authors = ["Irina Katunina <irina.k@p2p.org >"]
+license = "GNU"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+statsmodels="0.13.2"
+sklearn = "0.0"
+pandas = "^1.4.1"
+matplotlib ="^3.4.0"
+numpy ="^1.20.2"
+
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
